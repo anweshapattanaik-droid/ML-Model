@@ -1,9 +1,16 @@
 # ML-Model
-what i built
+dataset link - https://drive.google.com/drive/folders/1Xm1F0qJ_iK1eif1p34uc_wfwf7zRimgi?usp=sharing
+
+
+
+what i built-
 I built a small image classifier that can tell the difference between a watch and a pen. I took 30 photos of each object using my phone, so 60 images total. The photos were taken from different angles. I trained a small CNN (Convolutional Neural Network) on this dataset and ran 4 different experiments to see how changing certain settings affects the training.
 
-Dataset
+
+
+Dataset-
 i built my dataset by taking photos in my phone of pen and watch in different background .However, most images had similar backgrounds, which influenced the model behavior. 80% images are used for training and 20% for validation.
+As my dataset is very large so i am uploading the google drive link here - https://drive.google.com/drive/folders/1Xm1F0qJ_iK1eif1p34uc_wfwf7zRimgi?usp=sharing
 
 experiments-
 1- experiment settings - Learning Rate = 0.001, Batch Size = 16, Dropout = 0.0, The model started slow at epoch 5 it was still at 50% which is basically random guessing. But by epoch 10 it figured it out and hit 100% validation accuracy. Loss was going down smoothly throughout. This became my reference point for everything else.
