@@ -1,7 +1,4 @@
 # ML-Model
-dataset link - https://drive.google.com/drive/folders/1Xm1F0qJ_iK1eif1p34uc_wfwf7zRimgi?usp=sharing
-
-
 
 what i built-
 I built a small image classifier that can tell the difference between a watch and a pen. I took 30 photos of each object using my phone, so 60 images total. The photos were taken from different angles. I trained a small CNN (Convolutional Neural Network) on this dataset and ran 4 different experiments to see how changing certain settings affects the training.
